@@ -88,3 +88,20 @@ repeat(len, width) repeat len with width such as
 that means 30px auto 40px \* 4, 12 columns
 
 grid-gap/gap/row-gap + column-gap is used to add gap between the column & row of grid, gap is an abbreviation of row-gap + column-gap
+
+### use flex & align-items to make navbar animate
+
+```javascript
+  .nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+```
+
+add border-bottom when hovering, then the height of container will minus 4px and align-item effects the item like animate to move a little bit
