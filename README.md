@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## skills
+
+### background: linear-gradient(0deg, blue 0%,red 30%, yellow 100%)
+
+A gradient going from bottom to top, starting blue at 0h, turning red at 30% of height and finshing yellow
+
+### display: grid & repeat()
+
+repeat(len, width) repeat len with width such as
+
+```javascript
+  .container{
+    grid-template-columns: repeat(4, 30px auto 40px)
+  }
+```
+
+that means 30px auto 40px \* 4, 12 columns
+
+grid-gap/gap/row-gap + column-gap is used to add gap between the column & row of grid, gap is an abbreviation of row-gap + column-gap

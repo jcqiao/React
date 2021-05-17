@@ -1,4 +1,46 @@
 .navbar {
-  background: linear-gradient(0deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: aliceblue;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+.navbar-logo,
+.navbar-logo i,
+.navbar-container .menu-icon i {
+  color: aliceblue;
+}
+.navbar-logo {
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-logo .fa-bomb {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+}
+.nav-item a {
+  color: aliceblue;
 }
