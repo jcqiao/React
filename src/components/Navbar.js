@@ -29,6 +29,13 @@ function Navbar() {
         console.log("products");
       },
     },
+    {
+      name: "Sign Up",
+      path: "/sign-up",
+      onclick: () => {
+        console.log("sign up");
+      },
+    },
   ];
   return (
     <>
