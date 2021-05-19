@@ -105,3 +105,7 @@ grid-gap/gap/row-gap + column-gap is used to add gap between the column & row of
 ```
 
 add border-bottom when hovering, then the height of container will minus 4px and align-item effects the item like animate to move a little bit
+
+### flex
+
+flex-flow: flex-direction + flew-wrap

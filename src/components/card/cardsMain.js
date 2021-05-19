@@ -41,9 +41,14 @@ function CardsMain() {
     },
   ];
   return (
-    <ul className="cards__items">
-      <CardsItem item={cardsItem} />
-    </ul>
+    <>
+      <ul className="cards__items">
+        <CardsItem item={cardsItem.slice(0, 2)} />
+      </ul>
+      <ul className="cards__items">
+        <CardsItem item={cardsItem.slice(2, 5)} />
+      </ul>
+    </>
   );
 }
 
